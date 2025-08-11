@@ -13,5 +13,6 @@
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true
     },
-    "include": ["src/**/*.ts", "src/router/productRouter.ts"]
+    "include": ["src/**/*.ts", "src/router/productRouter.ts"],
+    "exclude": ["src/**/*.test.ts"]
 }
